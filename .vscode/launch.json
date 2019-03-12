@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestStr",
+            "request": "launch",
+            "mainClass": "LongestStr"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AddTwoNum",
+            "request": "launch",
+            "mainClass": "AddTwoNum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution"
+        }
+    ]
+}
