@@ -9,10 +9,15 @@ class num8{
             return 0;
         }
         if(str.startsWith("+")||str.startsWith("-")){
-            if(str.length()) return 0;
+            if(str.length()==1) return 0;
             if(!Character.isDigit(str.charAt(1))) return 0;
-        }           
-        int end = (str.indexOf(" ")!= -1)? str.indexOf(" "):str.length();
+        }
+        int end;
+        for(end=1; end<str.length(); end++){
+            if(!Character.isDigit(str.charAt(end))){
+                break;
+            }
+        }
         try{
             if(str.contains(".")){
                 result = (int)(Float.parseFloat(str.substring(0,end)));
@@ -27,6 +32,6 @@ class num8{
     }
     public static void main(String[] args) {
         num8 s = new num8();
-        System.out.println(s.myAtoi("+-1"));
+        System.out.println(s.myAtoi("-42"));
     }
 }
