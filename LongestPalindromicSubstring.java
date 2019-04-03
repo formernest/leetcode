@@ -1,30 +1,30 @@
 class longestPalindromeSubstring {
     public String longestPalindrome(String s) {
-        if(s.length()==0){
-            return s;
-        }
-        String maxs = "";
-        String temp = ""+s.charAt(0);
-        int maxlength= 0;
-        for(int i=0;i<s.length()-maxlength;i++){
-            for(int j=i+1; j<s.length();j++){
-                if (s.charAt(j)==temp.charAt(0)){
-                    temp = temp+s.charAt(j);
-                    if(temp.length()>maxlength){
-                        maxlength = temp.length();
-                        maxs = temp;
-                    }
-                    temp = ""+temp.charAt(1);
-                    break;
-                }else{
-                    temp = temp+s.charAt(j);
-                }
+        if (s == null || s.length() < 1) return "";
+        int start = 0, end = 0;
+        int len=0;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
             }
         }
-        return maxs;
+        return s.substring(start, end + 1);
+    }
+    
+    private int expandAroundCenter(String s, int left, int right) {
+        int L = left, R = right;
+        while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
+            L--;
+            R++;
+        }
+        return R - L - 1;
     }
     public static void main(String[] args) {
         longestPalindromeSubstring s = new longestPalindromeSubstring();
-        System.out.println(s.longestPalindrome("cbbd"));
+        System.out.println(s.longestPalindrome("abb"));
     }
 }
