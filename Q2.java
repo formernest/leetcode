@@ -1,32 +1,38 @@
 import java.util.Scanner;
 class Q2{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
-        int []array = new int[num];
-        for (int i=0; i<num; i++){
-            array[i] = scanner.nextInt();
-        }
-        for (int i=0; i<num; i++){
-            System.out.println(Q2.encode(array[i]));
-        }
+        // Scanner scanner = new Scanner(System.in);
+        // int num = scanner.nextInt();
+        // int []array = new int[num];
+        // for (int i=0; i<num; i++){
+        //     array[i] = scanner.nextInt();
+        // }
+        // for (int i=0; i<num; i++){
+        //     System.out.println(Q2.encode(array[i]));
+        // }
+        String s = "55555";
+        Q2 q2 = new Q2();
+        // String[] result = q2.splits(s, 3);
+        // for(String str:result){
+        //     System.out.println(str);
+        // }
+        System.out.println(q2.encode(s));
     }
-    public static String encode(int num){
-        String result = "";
-        String numToString = Integer.toString(num);
-        int length = numToString.length();
+    public static String encode(String num){
+        String result="";
+        int length = num.length();
         int size;
         size = (length%3==0)? length/3:length/3+1;
-        int[] array1 = new int[size];
+        String[] array1 = splits(num,3);
         int i=0;
         String[] array2 = new String[size];
         char c;
-        while(num!=0){
-            array1[i] = num%1000;
-            array2[i] = Integer.toBinaryString(array1[i]);
+        String[] init = new String[size];
+        for(int k=0;k<size;k++){
+            array2[i] = Integer.toBinaryString(Integer.valueOf(array1[i]));
             if(array2[i].length()!=10){
                 while(array2[i].length()<10){
-                    array2[i] = "0"+array2[i];
+                    array2[i] = "0" + array2[i];
                 } 
             }
             int temp = Integer.parseInt(array2[i].substring(5,10),2);
@@ -43,7 +49,6 @@ class Q2{
                 c = (char)(temp+'0');
             }
             result = c+result;
-            num = num/1000;
             i++;
         }
         for(i=0; i<result.length();i++){
@@ -51,6 +56,24 @@ class Q2{
             else{
                 result = result.substring(i+1, result.length());
             }
+        }
+        return result;
+    }
+    public static String[] splits(String s, int span){
+        int size = (s.length()%span==0)? s.length()/span:s.length()/span+1;
+        String[] result = new String[size];
+        int i,j;
+        j=0;
+        while(s.length()!=0){
+            if(s.length()-span>=0){
+                result[j] = s.substring(s.length()-span,s.length());
+                s = s.substring(0,s.length()-span);
+            }
+            else{
+                result[j] = s;
+                s="";
+            }   
+            j++;    
         }
         return result;
     }
