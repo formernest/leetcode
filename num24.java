@@ -7,19 +7,15 @@ class ListNode {
 public class num24 {
     public ListNode swapPairs(ListNode head) {
         ListNode result = new ListNode(0);
-        ListNode p = result;
-        while(head!=null){
-            if(head.next!=null){
-                p.next = head.next;
-                p = p.next;
-            }
-            p.next = head;
-            p = p.next;
-            if(head.next.next!=null){
-                head = head.next.next;
-            }else{
-                head = null;
-            }    
+        result.next = head;
+        ListNode current = result;
+        while(current.next!=null && current.next.next!=null){
+            ListNode first = current.next;
+            ListNode second = current.next.next;
+            first.next = second.next;
+            current.next = second;
+            second.next = first;
+            current = current.next.next;
         }
         return result.next;
     }
