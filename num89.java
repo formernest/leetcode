@@ -6,6 +6,8 @@ class num89 {
         List<Integer> result = new ArrayList<>();
         int count =(int)Math.pow(2, n);
         for(int i=0; i<count; i++){
+            int yiwei = i >> 1;
+            int add = i ^ yiwei;
             result.add(i ^ (i>>1));
         }
         return result;
