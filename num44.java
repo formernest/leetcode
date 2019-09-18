@@ -1,17 +1,26 @@
 class num44 {
     public boolean isMatch(String s, String p) {
-        if(p.isEmpty() || p == "*") return s.isEmpty();
-        boolean first_match = (!s.isEmpty()&&(s.charAt(0)==p.charAt(0)||p.charAt(0)=='?'));
-        if(p.length()>=2 && p.charAt(1)=='*'){
-            return (isMatch(s, p.substring(2))||(first_match&&isMatch(s.substring(1), p)));
-        }else{
-            return (first_match&&isMatch(s.substring(1), p.substring(1)));
+        int m=s.length(), n=p.length();
+        boolean[][] dp = new boolean[m+1][n+1];
+        dp[0][0] = true;
+        for(int j=1; j<=n; j++){
+            if(p.charAt(j-1) == '*') dp[0][j] = dp[0][j-1];
         }
+        for(int i=1; i<=m; i++){
+            for(int j=1; j<=n; j++){
+                if(p.charAt(j-1) == '*'){
+                    dp[i][j] = dp[i-1][j] || dp[i][j-1];
+                }else{
+                    dp[i][j] = ((s.charAt(i-1) == p.charAt(j-1)) || p.charAt(j-1) == '?') && dp[i-1][j-1];
+                }
+            }
+        }
+        return dp[m][n];
     }
     public static void main(String[] args) {
-        num44 s = new num44();
-        String text = "aa";
-        String p = "*";
-        System.out.println(s.isMatch(text, p));
+        String s = "aa";
+        String p = "a*";
+        num44 solution = new num44();
+        System.out.println(solution.isMatch(s, p));
     }
 }
