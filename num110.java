@@ -1,11 +1,11 @@
 //Definition for a binary tree node.
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
     TreeNode(int x) { val = x; }
  }
-class Solution {
+class num110 {
     boolean isbalanced = true;
     public boolean isBalanced(TreeNode root) {
         getDepth(root);

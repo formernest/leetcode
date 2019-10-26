@@ -1,0 +1,172 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num105",
+            "request": "launch",
+            "mainClass": "num105",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - offer4",
+            "request": "launch",
+            "mainClass": "offer4",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - offer3",
+            "request": "launch",
+            "mainClass": "offer3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - offer2",
+            "request": "launch",
+            "mainClass": "offer2",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - offer1",
+            "request": "launch",
+            "mainClass": "offer1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num87",
+            "request": "launch",
+            "mainClass": "num87",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num239",
+            "request": "launch",
+            "mainClass": "num239",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num76",
+            "request": "launch",
+            "mainClass": "num76",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num85",
+            "request": "launch",
+            "mainClass": "num85",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num73",
+            "request": "launch",
+            "mainClass": "num73",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num41",
+            "request": "launch",
+            "mainClass": "num41",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num42",
+            "request": "launch",
+            "mainClass": "num42",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num64",
+            "request": "launch",
+            "mainClass": "num64",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num63",
+            "request": "launch",
+            "mainClass": "num63",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num53",
+            "request": "launch",
+            "mainClass": "num53",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num44",
+            "request": "launch",
+            "mainClass": "num44",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num91",
+            "request": "launch",
+            "mainClass": "num91",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num62",
+            "request": "launch",
+            "mainClass": "num62",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num139",
+            "request": "launch",
+            "mainClass": "num139",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num300",
+            "request": "launch",
+            "mainClass": "num300",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num70",
+            "request": "launch",
+            "mainClass": "num70",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num55",
+            "request": "launch",
+            "mainClass": "num55",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "leetcode_d3519311"
+        }
+    ]
+}

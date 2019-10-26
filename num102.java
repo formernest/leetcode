@@ -4,13 +4,13 @@ import java.util.List;
 import java.util.Queue;
 
 //Definition for a binary tree node.
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
     TreeNode(int x) { val = x; }
  }
-class Solution {
+class num102 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if(root == null) return new ArrayList<List<Integer>>();
         Queue<TreeNode> q = new LinkedList<TreeNode>();
