@@ -1,4 +1,3 @@
-import java.util.Stack;
 
 class TreeNode {
     int val;
@@ -8,23 +7,24 @@ class TreeNode {
 }
 
 class num124 {
+    int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
-        int max = Integer.MIN_VALUE;
-        Stack<TreeNode> stack = new Stack<>();
-        if(root != null){
-            stack.push(root);
-            TreeNode c = null;
-            while(!stack.isEmpty()){
-            c = stack.peek();
-            if(c.left != null && root != c.left && root != c.right){
-                stack.push(c.left);
-            }else if(c.right != null && root != c.right){
-                stack.push(c.right);
-            }else{
-                TreeNode peek = stack.pop();
-                int result = peek.val;
-                if(peek)
-                root = c;
-            }
-        }
+        rootSum(root);
+        return max;
     }
+    public int rootSum(TreeNode root){
+        if(root == null) return 0;
+        int ls = rootSum(root.left);
+        int rs = rootSum(root.right);
+        this.max = Math.max(max, root.val + ls + rs);
+        this.max = Math.max(max, root.val);
+        int leftAcur = root.val + ls;
+        int rightAcur = root.val + rs;
+        this.max = Math.max(max, leftAcur);
+        this.max = Math.max(max, rightAcur);
+        if(leftAcur < 0 && rightAcur < 0){
+            return root.val < 0 ? 0 : root.val;
+        }
+        return leftAcur > rightAcur? leftAcur : rightAcur;
+    }
+}
