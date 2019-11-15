@@ -1,4 +1,3 @@
-
 class TreeNode {
     int val;
     TreeNode left;
@@ -6,7 +5,7 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
  
-class Solution {
+class num226 {
     public TreeNode invertTree(TreeNode root) {
         if(root == null) return root;
         return invert(root);
