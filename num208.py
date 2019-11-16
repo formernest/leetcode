@@ -1,9 +1,8 @@
 class TrieNode():
    
     def __init__(self):
-        self.R = 26
         self.isEnd = False
-        self.links = [TrieNode() for _ in range(self.R)]
+        self.links = [None for i in range(26)]
     
     def containKey(self, ch):
         return self.links[ch - 'a'] != None
