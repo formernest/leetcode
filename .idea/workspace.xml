@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c472c70-7cb0-4448-88aa-ccd3ac912eb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/num242.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/num295.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/num448.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/num1031.py" beforeDir="false" afterPath="$PROJECT_DIR$/num1031.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tempCodeRunnerFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tempCodeRunnerFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num438.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="19" column="28" lean-forward="true" selection-end-line="39" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="19" column="28" selection-end-line="39" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -29,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/num242.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="11" selection-end-column="19" />
+              <caret line="11" column="19" selection-start-line="1" selection-start-column="4" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -38,16 +34,43 @@
         <entry file="file://$PROJECT_DIR$/num448.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+              <caret line="13" column="18" selection-start-line="1" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/num295.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/num152.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/num295.py">
+        <entry file="file://$PROJECT_DIR$/num155.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="296">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/1995955354/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="3629" column="8" selection-start-line="3629" selection-start-column="8" selection-end-line="3629" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -69,7 +92,6 @@
       <list>
         <option value="$PROJECT_DIR$/num150.py" />
         <option value="$PROJECT_DIR$/num312.py" />
-        <option value="$PROJECT_DIR$/num152.py" />
         <option value="$PROJECT_DIR$/num912.py" />
         <option value="$PROJECT_DIR$/num240.py" />
         <option value="$PROJECT_DIR$/num739.py" />
@@ -77,6 +99,8 @@
         <option value="$PROJECT_DIR$/num242.py" />
         <option value="$PROJECT_DIR$/num448.py" />
         <option value="$PROJECT_DIR$/num295.py" />
+        <option value="$PROJECT_DIR$/num152.py" />
+        <option value="$PROJECT_DIR$/num155.py" />
       </list>
     </option>
   </component>
@@ -89,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num152">
+  <component name="RunManager" selected="Python.num155">
     <configuration name="num152" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +161,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num152.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="num155" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num155.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,28 +235,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="num438" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num438.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="num448" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num155" />
         <item itemvalue="Python.num152" />
         <item itemvalue="Python.num295" />
         <item itemvalue="Python.num448" />
         <item itemvalue="Python.num242" />
-        <item itemvalue="Python.num438" />
       </list>
     </recent_temporary>
   </component>
@@ -258,16 +282,18 @@
       <workItem from="1572881110845" duration="516000" />
       <workItem from="1573272920064" duration="4961000" />
       <workItem from="1573482896150" duration="5138000" />
+      <workItem from="1573908138227" duration="1290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15001000" />
+    <option name="totallyTimeSpent" value="16291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,11 +329,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/num152.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/num739.py</url>
           <line>39</line>
           <option name="timeStamp" value="6" />
@@ -316,6 +337,11 @@
           <url>file://$PROJECT_DIR$/num295.py</url>
           <line>46</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/num152.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -331,6 +357,7 @@
     <SUITE FILE_PATH="coverage/leetcode$num312.coverage" NAME="num312 Coverage Results" MODIFIED="1572793435609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num242.coverage" NAME="num242 Coverage Results" MODIFIED="1573484336801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$num438.coverage" NAME="num438 Coverage Results" MODIFIED="1573483716184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$num155.coverage" NAME="num155 Coverage Results" MODIFIED="1573960347815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/num150.py">
@@ -344,13 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num152.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -377,29 +397,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/num438.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="19" column="28" lean-forward="true" selection-end-line="39" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-end-line="39" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num242.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="11" selection-end-column="19" />
+          <caret line="11" column="19" selection-start-line="1" selection-start-column="4" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num448.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+          <caret line="13" column="18" selection-start-line="1" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num295.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
+        <state relative-caret-position="720">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num152.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/1995955354/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="3629" column="8" selection-start-line="3629" selection-start-column="8" selection-end-line="3629" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num155.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
