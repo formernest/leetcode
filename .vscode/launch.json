@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num179",
+            "request": "launch",
+            "mainClass": "num179",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num125",
+            "request": "launch",
+            "mainClass": "num125",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num456",
+            "request": "launch",
+            "mainClass": "num456",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num923",
+            "request": "launch",
+            "mainClass": "num923",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num75",
+            "request": "launch",
+            "mainClass": "num75",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - num560",
             "request": "launch",
             "mainClass": "num560",
