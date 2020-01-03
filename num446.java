@@ -1,27 +1,29 @@
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 class num446 {
     public int numberOfArithmeticSlices(int[] A) {
-        if(A.length < 3) return 0;
         int len = A.length;
-        int[] dp = new int[len];
-        Arrays.fill(dp, Integer.MIN_VALUE);
-        int count = 0;
-        int temp = A[1] - A[0];
-        dp[1] = 1;
-        for(int i=2; i<len; i++){
-            if(A[i]-A[i-1] == temp){
-                dp[i] = dp[i-1] + 1;
-            }else{
-                if(dp[i-1] >= 2) count += (Math.pow(2, dp[i-1]-1) - 1);
-                temp = A[i]-A[i-1];
-                dp[i] = 1;
+        long ans = 0;
+        Map<Integer, Integer>[] map = new Map[len];
+        for(int i=0; i<len; i++){
+            map[i] = new HashMap<>();
+            for(int j=0; j<i; j++){
+                long delta = (long)A[i] - (long)A[j];
+                if(delta < Integer.MIN_VALUE || delta > Integer.MAX_VALUE){
+                    continue;       
+                }
+                int diff = (int)delta;
+                int sum = map[j].getOrDefault(diff, 0);
+                int origin = map[i].getOrDefault(diff, 0);
+                map[i].put(diff, sum+origin+1);
+                ans += sum;
             }
         }
-        return dp[len-1] >= 2? count + (int)Math.pow(2, dp[len-1]-1)-1 : count;   
+        return (int)ans;
     }
     public static void main(String[] args) {
-        int[] A = {2, 4, 6, 8, 10};
+        int[] A = {2, 4, 6, 8, 10, 12};
         num446 s = new num446();
         System.out.println(s.numberOfArithmeticSlices(A));
     }
