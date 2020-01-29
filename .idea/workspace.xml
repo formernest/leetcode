@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c472c70-7cb0-4448-88aa-ccd3ac912eb8" name="Default Changelist" comment="" />
+    <list default="true" id="3c472c70-7cb0-4448-88aa-ccd3ac912eb8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp" beforeDir="false" afterPath="$PROJECT_DIR$/temp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,38 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num350.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num162.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num84.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/num315.py">
+        <entry file="file://$PROJECT_DIR$/GetMedian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -77,6 +54,8 @@
         <option value="$PROJECT_DIR$/num162.py" />
         <option value="$PROJECT_DIR$/num84.py" />
         <option value="$PROJECT_DIR$/num315.py" />
+        <option value="$PROJECT_DIR$/num106.py" />
+        <option value="$PROJECT_DIR$/num889.py" />
       </list>
     </option>
   </component>
@@ -262,17 +241,20 @@
       <workItem from="1573908138227" duration="1290000" />
       <workItem from="1574574425546" duration="2284000" />
       <workItem from="1576053538150" duration="4456000" />
+      <workItem from="1579700276540" duration="3883000" />
+      <workItem from="1579929875647" duration="180000" />
+      <workItem from="1580181662205" duration="397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23031000" />
+    <option name="totallyTimeSpent" value="27491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -451,21 +433,21 @@
     <entry file="file://$PROJECT_DIR$/num350.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num162.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
+          <caret line="14" column="28" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num84.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -473,6 +455,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num106.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num889.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetMedian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>

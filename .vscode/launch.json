@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GetMedian",
+            "request": "launch",
+            "mainClass": "GetMedian",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - movingCount",
+            "request": "launch",
+            "mainClass": "movingCount",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - cutRope",
+            "request": "launch",
+            "mainClass": "cutRope",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - num224",
             "request": "launch",
             "mainClass": "num224",
