@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IsPopOrder",
+            "request": "launch",
+            "mainClass": "IsPopOrder",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - printMatrix",
+            "request": "launch",
+            "mainClass": "printMatrix",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumberOf1",
             "request": "launch",
             "mainClass": "NumberOf1",
