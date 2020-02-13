@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - isContinuous",
+            "request": "launch",
+            "mainClass": "isContinuous",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseSentence",
+            "request": "launch",
+            "mainClass": "ReverseSentence",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LeftRotateString",
+            "request": "launch",
+            "mainClass": "LeftRotateString",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindNumbersWithSum",
+            "request": "launch",
+            "mainClass": "FindNumbersWithSum",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IsPopOrder",
             "request": "launch",
             "mainClass": "IsPopOrder",
