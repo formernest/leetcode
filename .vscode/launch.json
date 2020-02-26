@@ -2,6 +2,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - longestPalindromeSubstring",
+            "request": "launch",
+            "mainClass": "longestPalindromeSubstring",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LRUCache",
+            "request": "launch",
+            "mainClass": "LRUCache",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestStr",
+            "request": "launch",
+            "mainClass": "LongestStr",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num394",
+            "request": "launch",
+            "mainClass": "num394",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TreeTravesal",
+            "request": "launch",
+            "mainClass": "TreeTravesal",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sort",
+            "request": "launch",
+            "mainClass": "sort",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StrToInt",
+            "request": "launch",
+            "mainClass": "StrToInt",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindGreatestSumOfSubArray",
+            "request": "launch",
+            "mainClass": "FindGreatestSumOfSubArray",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindNumsAppearOnce",
+            "request": "launch",
+            "mainClass": "FindNumsAppearOnce",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - isNumeric",
+            "request": "launch",
+            "mainClass": "isNumeric",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - isContinuous",
             "request": "launch",
             "mainClass": "isContinuous",
