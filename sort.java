@@ -86,13 +86,59 @@ public class sort{
         }
         return result;
     }
-    //快速排序
+    //快速排序，交换排序，不稳定，o(logN)
     public void quickSort(int[] arr){
-
+        quickHelp(arr, 0, arr.length-1);
+    }
+    public void quickHelp(int[] arr, int left, int right){
+        if(left < right){
+            int pviot = division(arr, left, right);
+            quickHelp(arr, left, pviot-1);
+            quickHelp(arr, pviot+1, right);
+        }
+    }
+    public int division(int[] arr, int left, int right){
+        //设置left的值为轴，找出该值的正确位置，左边为小于轴的值，右边为大于轴的值
+        int base = arr[left];
+        while(left < right){
+            while(left<right && arr[right]>=base){
+                right --;
+            }
+            arr[left] = arr[right];
+            while(left<right && arr[left]<=base){
+                left ++;
+            }
+            arr[right] = arr[left];
+        }
+        arr[left] = base;
+        return left;
     }
     //堆排序
     public void heapSort(int[] arr){
-
+        // 建立大顶堆，升序使用大顶堆，降序使用小顶堆
+        for(int i=arr.length/2-1; i>=0; i--){
+            adjust(arr, i, arr.length);
+        }
+        // 不断交换堆顶元素和末尾元素的位置，然后调整，使最大元素下沉
+        for(int j=arr.length-1; j>=1; j--){
+            swap(arr, 0, j);
+            adjust(arr, 0, j);
+        }
+    }
+    public void adjust(int[] arr, int i, int length){
+        int temp = arr[i];
+        for(int k = i*2+1; k<length; k=k*2+1){
+            if(k+1<length && arr[k]<arr[k+1]){
+                k++;
+            }
+            if(arr[k]>temp){
+                arr[i] = arr[k];
+                i = k;
+            }else{
+                break;
+            }
+        }
+        arr[i] = temp;
     }
     //计数排序
     public void countSort(int[] arr){
@@ -123,7 +169,9 @@ public class sort{
         // solution.bubbleSort(arr);
         // solution.selectSort(arr);
         // solution.insertSort(arr);
-        solution.shellSort(arr);
+        // solution.shellSort(arr);
+        // solution.quickSort(arr);
+        solution.heapSort(arr);
         for(int item:arr){
             System.out.println(item);
         }

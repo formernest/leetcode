@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - kuaishou1",
+            "request": "launch",
+            "mainClass": "kuaishou1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - javaGuide1",
+            "request": "launch",
+            "mainClass": "javaGuide1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - meituan2",
+            "request": "launch",
+            "mainClass": "meituan2",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - meituan1",
+            "request": "launch",
+            "mainClass": "meituan1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num200",
+            "request": "launch",
+            "mainClass": "num200",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num128",
+            "request": "launch",
+            "mainClass": "num128",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num115",
+            "request": "launch",
+            "mainClass": "num115",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SplitArray",
+            "request": "launch",
+            "mainClass": "SplitArray",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - num61",
             "request": "launch",
             "mainClass": "num61",
