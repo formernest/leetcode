@@ -1,2 +1,0 @@
-sftp -oPort=[port][user]@[ remotehost IP]
-sftp -oPort=22ccivr@192.168.2.136

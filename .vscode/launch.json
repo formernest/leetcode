@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num1",
+            "request": "launch",
+            "mainClass": "ali.num1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ali",
+            "request": "launch",
+            "mainClass": "ali",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num33",
+            "request": "launch",
+            "mainClass": "num33",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - kuaishou1",
             "request": "launch",
             "mainClass": "kuaishou1",
