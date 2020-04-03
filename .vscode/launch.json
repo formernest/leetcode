@@ -2,6 +2,89 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - maxScore",
+            "request": "launch",
+            "mainClass": "others.maxScore",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num435",
+            "request": "launch",
+            "mainClass": "leetcode.num435",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BigNumAdd",
+            "request": "launch",
+            "mainClass": "interview.BigNumAdd",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BigNumProduct",
+            "request": "launch",
+            "mainClass": "interview.BigNumProduct",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - prime",
+            "request": "launch",
+            "mainClass": "interview.prime",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - QinNum",
+            "request": "launch",
+            "mainClass": "interview.QinNum",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - maxSubSet",
+            "request": "launch",
+            "mainClass": "interview.maxSubSet",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num46",
+            "request": "launch",
+            "mainClass": "leetcode.num46",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "python",
+            "name": "Python: Current File",
+            "request": "launch",
+            "pythonPath": "/Users/lifang/anaconda3/bin/python"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main360",
+            "request": "launch",
+            "mainClass": "interview.Main360",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Color",
+            "request": "launch",
+            "mainClass": "interview.Color",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "others.Main",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaxSubMartix",
             "request": "launch",
             "mainClass": "interview.MaxSubMartix",

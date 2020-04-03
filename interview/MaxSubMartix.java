@@ -3,7 +3,7 @@ package interview;
 import java.util.Stack;
 
 /*
-求最大字矩阵的大小
+求最大子矩阵的大小
 使用分层直方图的方式
 */
 public class MaxSubMartix{
