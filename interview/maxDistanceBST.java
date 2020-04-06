@@ -11,16 +11,6 @@ package interview;
  * 三、整合需要的信息
  * 四、设计递归树dp
  */
-class Node{
-    int val;
-    Node left;
-    Node right;
-    public Node(int val){
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
 class ReturnType{
     int maxDiatance;
     int height;

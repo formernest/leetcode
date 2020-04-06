@@ -5,16 +5,6 @@ package interview;
  * 方法：序列化+KMP
  * 解法：序列化tree1和tree2, 这样tree2就是tree1的一个子序列。序列化使用前序遍历，匹配使用KMP算法
  */
-class Node{
-    int val;
-    Node left;
-    Node right;
-    public Node(int val){
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
 public class isSubTree{
     public boolean isSub(Node node1, Node node2){
         String str1 = serialByPre(node1);

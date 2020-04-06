@@ -20,16 +20,6 @@ package interview;
  * 3、整合两种情况分析第三种可能性
  * 4、返回整合的结果
  */
-class Node{
-    int val;
-    Node left;
-    Node right;
-    public Node(int val){
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
 class ReturnType{
     int min;
     int max;

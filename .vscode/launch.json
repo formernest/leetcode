@@ -2,6 +2,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - oneEdit",
+            "request": "launch",
+            "mainClass": "daily_problem.oneEdit",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - day3",
+            "request": "launch",
+            "mainClass": "daily_problem.day3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - day2",
+            "request": "launch",
+            "mainClass": "daily_problem.day2",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - transStr2Num",
+            "request": "launch",
+            "mainClass": "interview.transStr2Num",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - isRotationStr",
+            "request": "launch",
+            "mainClass": "interview.isRotationStr",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - isTransferStr",
+            "request": "launch",
+            "mainClass": "interview.isTransferStr",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - longestCommonSub",
+            "request": "launch",
+            "mainClass": "interview.longestCommonSub",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - maxCommon",
+            "request": "launch",
+            "mainClass": "interview.maxCommon",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - coinChange",
+            "request": "launch",
+            "mainClass": "interview.coinChange",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - longestSubConsective",
+            "request": "launch",
+            "mainClass": "interview.longestSubConsective",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - jumpGame",
+            "request": "launch",
+            "mainClass": "interview.jumpGame",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numOfBST",
+            "request": "launch",
+            "mainClass": "interview.numOfBST",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - genPosArray",
+            "request": "launch",
+            "mainClass": "interview.genPosArray",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - maxScore",
             "request": "launch",
             "mainClass": "others.maxScore",

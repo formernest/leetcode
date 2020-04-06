@@ -7,16 +7,6 @@ import java.util.Map;
  * 程序员面试[再看一遍]
  * 二叉搜索树的最大拓扑
  */
-class Node{
-    int val;
-    Node left;
-    Node right;
-    public Node(int val){
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
 // 记录当前节点左子树的最大拓扑数+右子树的最大拓扑数
 class Record{
     int l;
