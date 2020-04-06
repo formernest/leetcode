@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - minPathValue",
+            "request": "launch",
+            "mainClass": "interview.minPathValue",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - transferNum",
+            "request": "launch",
+            "mainClass": "interview.transferNum",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numOfChange",
+            "request": "launch",
+            "mainClass": "interview.numOfChange",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - oneEdit",
             "request": "launch",
             "mainClass": "daily_problem.oneEdit",
