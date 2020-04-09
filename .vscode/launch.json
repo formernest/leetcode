@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - wangyi4",
+            "request": "launch",
+            "mainClass": "others.wangyi4",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - wangyi3",
+            "request": "launch",
+            "mainClass": "others.wangyi3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - wangyi1",
+            "request": "launch",
+            "mainClass": "others.wangyi1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - day4",
+            "request": "launch",
+            "mainClass": "daily_problem.day4",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - minSplitCoat",
+            "request": "launch",
+            "mainClass": "interview.minSplitCoat",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - maxProfit",
+            "request": "launch",
+            "mainClass": "interview.maxProfit",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - minPathValue",
             "request": "launch",
             "mainClass": "interview.minPathValue",
