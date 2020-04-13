@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num887",
+            "request": "launch",
+            "mainClass": "leetcode.num887",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - dargonGame",
+            "request": "launch",
+            "mainClass": "interview.dargonGame",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pin3",
+            "request": "launch",
+            "mainClass": "others.pin3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pin4",
+            "request": "launch",
+            "mainClass": "others.pin4",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pin2",
+            "request": "launch",
+            "mainClass": "others.pin2",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pin1",
+            "request": "launch",
+            "mainClass": "others.pin1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - day7",
+            "request": "launch",
+            "mainClass": "daily_problem.day7",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - wangyi4",
             "request": "launch",
             "mainClass": "others.wangyi4",
