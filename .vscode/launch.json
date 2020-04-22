@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num466",
+            "request": "launch",
+            "mainClass": "leetcode.num466",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - maxArea",
+            "request": "launch",
+            "mainClass": "daily_problem.maxArea",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num460",
+            "request": "launch",
+            "mainClass": "leetcode.num460",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - jumpGame",
+            "request": "launch",
+            "mainClass": "daily_problem.jumpGame",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - day4_16",
+            "request": "launch",
+            "mainClass": "daily_problem.day4_16",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num542",
+            "request": "launch",
+            "mainClass": "leetcode.num542",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - num887",
             "request": "launch",
             "mainClass": "leetcode.num887",
