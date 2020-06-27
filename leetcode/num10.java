@@ -1,3 +1,5 @@
+package leetcode;
+
 class num10 {
 	public boolean isMatch(String text, String pattern){
 		if (pattern.isEmpty()) return text.isEmpty();

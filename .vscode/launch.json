@@ -2,6 +2,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - day6_26",
+            "request": "launch",
+            "mainClass": "daily_problem.day6_26",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num10",
+            "request": "launch",
+            "mainClass": "leetcode.num10",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num287",
+            "request": "launch",
+            "mainClass": "daily_problem.num287",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num574",
+            "request": "launch",
+            "mainClass": "daily_problem.num574",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - day5_3",
+            "request": "launch",
+            "mainClass": "daily_problem.day5_3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num33",
+            "request": "launch",
+            "mainClass": "daily_problem.num33",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ten5",
+            "request": "launch",
+            "mainClass": "others.ten5",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ten1",
+            "request": "launch",
+            "mainClass": "others.ten1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ten4",
+            "request": "launch",
+            "mainClass": "others.ten4",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - coinChange",
+            "request": "launch",
+            "mainClass": "daily_problem.coinChange",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - num466",
             "request": "launch",
             "mainClass": "leetcode.num466",
