@@ -1,6 +1,24 @@
+package leetcode;
+
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ *  You are given an integer array nums and you have to return a new counts array. The counts array has the property where counts[i] is the number of smaller elements to the right of nums[i].
+    Example:
+    Input: [5,2,6,1]
+    Output: [2,1,1,0] 
+    Explanation:
+    To the right of 5 there are 2 smaller elements (2 and 1).
+    To the right of 2 there is only 1 smaller element (1).
+    To the right of 6 there is 1 smaller element (1).
+    To the right of 1 there is 0 smaller element.
+思路：
+    记录数组的索引、创建索引数组，对索引数组进行归并排序
+    合并的时候分为：left列表和right列表
+    当right列表中的数字比较小，则从right列表中复制一个数字到新数组中，则表明有小数字前移了，则rightcount++
+    当left列表中的数字比较小，则从left列表中复制一个数字到新数组中，且根据这个数字的索引增加rightcount
+    即count[ index of the number ] += rightcount，这是这轮合并在其右边且比他小的那些数字的数目之和。
+ */
 class num315 {
     public int[] count;
     public List<Integer> countSmaller(int[] nums) {

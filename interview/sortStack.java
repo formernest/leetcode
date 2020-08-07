@@ -4,6 +4,9 @@ import java.util.Stack;
 /*
 用一个栈实现另一个栈的排序
 使用辅助栈结构实现栈的排序
+stack作为pop栈，对于弹出的栈顶元素和help栈中的栈顶元素进行比较
+    1、如果栈顶元素的值大于help的栈顶元素，则将help栈的元素一次压入弹出栈中
+    2、否则直接将栈顶元素压入help栈中
 */
 public class sortStack {
     public void sort(Stack<Integer> stack){

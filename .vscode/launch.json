@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num54",
+            "request": "launch",
+            "mainClass": "leetcode.num54",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num28",
+            "request": "launch",
+            "mainClass": "leetcode.num28",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution3",
+            "request": "launch",
+            "mainClass": "leetcode.pinduoduo.Solution3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "leetcode.pinduoduo.Solution1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "leetcode.ali.Solution1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - day6_26",
             "request": "launch",
             "mainClass": "daily_problem.day6_26",

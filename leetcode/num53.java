@@ -1,3 +1,4 @@
+package leetcode;
 class num53 {
     public int maxSubArray(int[] nums) {
         if(nums.length == 0) return 0;
