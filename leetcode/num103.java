@@ -1,17 +1,10 @@
+package leetcode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-//Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}
-
-class Solution {
+public class num103 {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         if(root == null) return new ArrayList<List<Integer>>();
         int count = 1;
