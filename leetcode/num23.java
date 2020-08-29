@@ -1,8 +1,4 @@
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
+
 public class num23 {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode head = new ListNode(0);

@@ -1,14 +1,5 @@
 package leetcode;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class num100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {

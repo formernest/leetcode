@@ -1,11 +1,5 @@
 
-class ListNode {
-    int val;
-    ListNode next = null;
-    ListNode(int val) {
-        this.val = val;
-    }
-}
+
 
 public class offer11 {
     // 删除链表中重复的节点

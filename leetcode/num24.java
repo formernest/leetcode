@@ -1,8 +1,4 @@
-class ListNode {
-    int val;
-     ListNode next;
-     ListNode(int x) { val = x; }
- }
+
 public class num24 {
     public ListNode swapPairs(ListNode head) {
         ListNode result = new ListNode(0);

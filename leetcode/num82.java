@@ -1,8 +1,4 @@
-class ListNode {
-     int val;
-     ListNode next;
-     ListNode(int x) { val = x; }
-}
+
 
 public class num82 {
     public ListNode deleteDuplicates(ListNode head) {

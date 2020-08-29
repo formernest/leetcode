@@ -1,8 +1,4 @@
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-} 
+
 public class num147 {
     public ListNode insertionSortList(ListNode head) {
        if(head == null || head.next == null){

@@ -3,15 +3,6 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.Stack;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class num94 {
     // public ArrayList<Integer> inorderTraversal(TreeNode root) {

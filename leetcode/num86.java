@@ -1,8 +1,4 @@
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
+
 public class num86 {
     public static ListNode partition(ListNode head, int x) {
        ListNode before_head = new ListNode(0);

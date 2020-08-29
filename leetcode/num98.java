@@ -2,16 +2,6 @@ package leetcode;
 
 import java.util.Stack;
 
-//  * Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class num98 {
     // 使用中序遍历的方法判断

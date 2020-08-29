@@ -1,23 +1,13 @@
 package leetcode;
 
-//Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}
-
-class num110 {
+public class num110 {
     boolean isbalanced = true;
 
-    public boolean isBalanced(TreeNode root) {
-        getDepth(root);
-        return isbalanced;
-    }
+    // public boolean isBalanced(TreeNode root) {
+    //     getDepth(root);
+    //     return isbalanced;
+    // }
 
     public int getDepth(TreeNode root) {
         if (root == null)

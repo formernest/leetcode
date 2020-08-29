@@ -1,11 +1,4 @@
-class ListNode {
-    int val;
-    ListNode next = null;
 
-    ListNode(int val) {
-        this.val = val;
-    }
-}
 public class offer13 {
     // 合并两个有序的链表
     public ListNode Merge(ListNode list1,ListNode list2) {

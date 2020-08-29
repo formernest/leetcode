@@ -3,15 +3,7 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 class num105 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {

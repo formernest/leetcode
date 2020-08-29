@@ -2,6 +2,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num214",
+            "request": "launch",
+            "mainClass": "leetcode.num214",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num332",
+            "request": "launch",
+            "mainClass": "leetcode.num332",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution2",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution2",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution4",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution4",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution5",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution5",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution3",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution3",
+            "request": "launch",
+            "mainClass": "leetcode.bigo.Solution3",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution4",
+            "request": "launch",
+            "mainClass": "leetcode.bigo.Solution4",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution2",
+            "request": "launch",
+            "mainClass": "leetcode.shangtang.Solution2",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "leetcode.shangtang.Solution1",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num557",
+            "request": "launch",
+            "mainClass": "leetcode.num557",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num647",
+            "request": "launch",
+            "mainClass": "leetcode.num647",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num109",
+            "request": "launch",
+            "mainClass": "leetcode.num109",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num20",
+            "request": "launch",
+            "mainClass": "leetcode.num20",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - num733",
+            "request": "launch",
+            "mainClass": "leetcode.num733",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HitBalloon",
             "request": "launch",
             "mainClass": "interview.HitBalloon",

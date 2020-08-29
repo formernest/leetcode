@@ -1,11 +1,5 @@
 import java.util.ArrayList;
-class ListNode {
-    int val;
-    ListNode next = null;
-    ListNode(int val) {
-        this.val = val;
-    }
-}
+
 public class offer3 {
     // 从尾到头打印链表
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {

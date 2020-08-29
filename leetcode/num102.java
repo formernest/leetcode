@@ -5,16 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-//Definition for a binary tree node.
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 class num102 {
     public List<List<Integer>> levelOrder(TreeNode root) {
