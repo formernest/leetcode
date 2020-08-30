@@ -1,4 +1,5 @@
 package leetcode;
+
 class num43 {
     public String multiply(String num1, String num2) {
         if (num1 == null || num2 == null || num1.isEmpty() || num2.isEmpty())

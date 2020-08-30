@@ -1,4 +1,5 @@
 package interview;
+
 /**
  * 程序员面试：派对的最大快乐值
  * 要求：如果某个员工来了，其直接下属不能来。
@@ -9,31 +10,34 @@ package interview;
 import java.util.LinkedList;
 import java.util.List;
 
-class Employee{
+class Employee {
     int happy;
     List<Employee> workers = new LinkedList<Employee>();
 }
 
-class ReturnType{
+class ReturnType {
     public int yes;
     public int no;
-    public ReturnType(int yes, int no){
+
+    public ReturnType(int yes, int no) {
         this.yes = yes;
         this.no = no;
     }
 }
-public class maxHappy{
-    public int getMaxHappy(Employee boss){
+
+public class maxHappy {
+    public int getMaxHappy(Employee boss) {
         ReturnType data = process(boss);
         return Math.max(data.yes, data.no);
     }
-    public ReturnType process(Employee boss){
+
+    public ReturnType process(Employee boss) {
         int yesMax = boss.happy;
         int noMax = 0;
-        if(boss.workers.isEmpty()){
+        if (boss.workers.isEmpty()) {
             return new ReturnType(yesMax, noMax);
-        }else{
-            for(Employee item:boss.workers){
+        } else {
+            for (Employee item : boss.workers) {
                 ReturnType worker = process(item);
                 yesMax += worker.no;
                 noMax += Math.max(worker.yes, worker.no);

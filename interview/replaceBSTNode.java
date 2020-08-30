@@ -1,4 +1,5 @@
 package interview;
+
 import java.util.LinkedList;
 import java.util.Queue;
 /**
@@ -16,41 +17,45 @@ import java.util.Queue;
  */
 import java.util.Stack;
 
-class Node{
+class Node {
     int val;
     Node left;
     Node right;
-    public Node(int val){
+
+    public Node(int val) {
         this.val = val;
         this.left = null;
         this.right = null;
     }
 }
-class Rela{
+
+class Rela {
     Node parent;
     boolean isLeft;
-    public Rela(Node p, boolean isLeft){
+
+    public Rela(Node p, boolean isLeft) {
         this.parent = p;
         this.isLeft = isLeft;
     }
 }
-public class replaceBSTNode{
-    public Node[] getErrorNode(Node head){
+
+public class replaceBSTNode {
+    public Node[] getErrorNode(Node head) {
         Node[] errors = new Node[2];
-        if(head == null){
+        if (head == null) {
             return errors;
         }
         Stack<Node> stack = new Stack<>();
         Node pre = null;
         // 中序遍历
-        while(!stack.isEmpty() || head != null){
-            if(head != null){
+        while (!stack.isEmpty() || head != null) {
+            if (head != null) {
                 stack.push(head);
                 head = head.left;
-            }else{
+            } else {
                 head = stack.pop();
-                if(pre != null && pre.val > head.val){
-                    errors[0] = errors[0] == null ? pre:errors[0];
+                if (pre != null && pre.val > head.val) {
+                    errors[0] = errors[0] == null ? pre : errors[0];
                     errors[1] = head;
                 }
                 pre = head;
@@ -59,38 +64,40 @@ public class replaceBSTNode{
         }
         return errors;
     }
-    public void replace(Node head){
+
+    public void replace(Node head) {
         Node[] errors = getErrorNode(head);
         Rela[] parents = getParent(errors, head);
         Node p1 = parents[0].parent;
         Node son1 = errors[0].left;
         Node son2 = errors[0].right;
-        if(parents[0] == null){
-            if(parents[1].isLeft){
+        if (parents[0] == null) {
+            if (parents[1].isLeft) {
                 parents[1].parent.left = errors[0];
-            }else{
+            } else {
                 parents[1].parent.right = errors[0];
             }
         }
     }
-    public Rela[] getParent(Node[] nodes, Node head){
-        Rela[] relas = {null, null};
-        if(head == nodes[0]){
+
+    public Rela[] getParent(Node[] nodes, Node head) {
+        Rela[] relas = { null, null };
+        if (head == nodes[0]) {
             relas[0] = new Rela(null, true);
-        }else if(head == nodes[1]){
+        } else if (head == nodes[1]) {
             relas[1] = new Rela(null, true);
         }
         Queue<Node> queue = new LinkedList<>();
         queue.offer(head);
-        while(relas[0]!=null && relas[1]!=null){
+        while (relas[0] != null && relas[1] != null) {
             Node p = queue.poll();
-            if(p.left == nodes[0]){
+            if (p.left == nodes[0]) {
                 relas[0] = new Rela(p, true);
-            }else if(p.right == nodes[0]){
+            } else if (p.right == nodes[0]) {
                 relas[0] = new Rela(p, false);
-            }else if(p.left == nodes[0]){
+            } else if (p.left == nodes[0]) {
                 relas[1] = new Rela(p, true);
-            }else if(p.right == nodes[1]){
+            } else if (p.right == nodes[1]) {
                 relas[1] = new Rela(p, false);
             }
         }

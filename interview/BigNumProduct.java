@@ -1,14 +1,16 @@
 package interview;
+
 /**
  * 大数相乘
  */
-public class BigNumProduct{
+public class BigNumProduct {
     /**
      * Karatsuba乘法
      */
-    public static long karatsuba(long num1, long num2){
-        //递归终止条件
-        if(num1 < 10 || num2 < 10) return num1 * num2;
+    public static long karatsuba(long num1, long num2) {
+        // 递归终止条件
+        if (num1 < 10 || num2 < 10)
+            return num1 * num2;
 
         // 计算拆分长度
         int size1 = String.valueOf(num1).length();
@@ -26,11 +28,12 @@ public class BigNumProduct{
         long z0 = karatsuba(b, d);
         long z1 = karatsuba((a + b), (c + d)) - z0 - z2;
 
-        return (long)(z2 * Math.pow(10, (2*halfN)) + z1 * Math.pow(10, halfN) + z0);
+        return (long) (z2 * Math.pow(10, (2 * halfN)) + z1 * Math.pow(10, halfN) + z0);
     }
+
     public static void main(String[] args) {
         long num1 = 1234;
         long num2 = 5678;
-        System.out.println(karatsuba(num1, num2)); 
+        System.out.println(karatsuba(num1, num2));
     }
 }
