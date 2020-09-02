@@ -2,7 +2,6 @@ package leetcode;
 
 import java.util.Stack;
 
-
 public class num98 {
     // 使用中序遍历的方法判断
     public static boolean isValidBST(TreeNode root) {

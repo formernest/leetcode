@@ -3,7 +3,6 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
 public class num101 {
     public boolean isSymmetric(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<TreeNode>();

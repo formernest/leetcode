@@ -1,5 +1,8 @@
 package interview;
 
+/**
+ * [程序员面试]：最大值减去最小值小于或等于num的子数组数量
+ */
 import java.util.LinkedList;
 
 public class subSetNum {

@@ -1,12 +1,11 @@
 package leetcode;
 
-
 public class num110 {
     boolean isbalanced = true;
 
     // public boolean isBalanced(TreeNode root) {
-    //     getDepth(root);
-    //     return isbalanced;
+    // getDepth(root);
+    // return isbalanced;
     // }
 
     public int getDepth(TreeNode root) {

@@ -1,7 +1,7 @@
 package interview;
 
 /**
- * 程序员面试：数组中最长连续序列
+ * [程序员面试] 数组中最长连续序列
  */
 import java.util.HashMap;
 import java.util.Map;

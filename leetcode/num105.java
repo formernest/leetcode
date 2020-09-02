@@ -3,8 +3,6 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
-
 class num105 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder.length == 0 || preorder.length != inorder.length)

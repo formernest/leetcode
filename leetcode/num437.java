@@ -1,21 +1,22 @@
 package leetcode;
 
-public class num437{
+public class num437 {
     int count = 0;
     int totalPaths = 0;
+
     public int pathSum(TreeNode root, int sum) {
-        if(root!=null){
+        if (root != null) {
             traverseAllPaths(root, sum, 0);
             pathSum(root.left, sum);
             pathSum(root.right, sum);
         }
-        return  totalPaths;
+        return totalPaths;
     }
 
-    private void traverseAllPaths(TreeNode root, int sum, int currentSum){
-        if(root !=null){   
+    private void traverseAllPaths(TreeNode root, int sum, int currentSum) {
+        if (root != null) {
             currentSum += root.val;
-            if(sum == currentSum){
+            if (sum == currentSum) {
                 totalPaths++;
             }
             traverseAllPaths(root.left, sum, currentSum);

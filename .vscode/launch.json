@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - longestGenLIS",
+            "request": "launch",
+            "mainClass": "interview.longestGenLIS",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numOfMove",
+            "request": "launch",
+            "mainClass": "interview.numOfMove",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution2",
+            "request": "launch",
+            "mainClass": "leetcode.pinduoduo.Solution2",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution11",
+            "request": "launch",
+            "mainClass": "leetcode.pinduoduo.Solution11",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution13",
+            "request": "launch",
+            "mainClass": "leetcode.pinduoduo.Solution13",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - num214",
             "request": "launch",
             "mainClass": "leetcode.num214",
