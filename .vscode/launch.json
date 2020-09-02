@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - isCross",
+            "request": "launch",
+            "mainClass": "interview.isCross",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - longestGenLIS",
             "request": "launch",
             "mainClass": "interview.longestGenLIS",
