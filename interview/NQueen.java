@@ -11,7 +11,7 @@ public class NQueen {
         dfs(resultList, result, 0, n);
         return resultList;
     }
-    
+
     public void dfs(List<List<String>> resultList, int[] result, int row, int n) {
         // 递归终止条件
         if (row == n) {
@@ -29,8 +29,7 @@ public class NQueen {
             boolean isValid = true;
             result[row] = column;
             /*
-             * 逐行往下考察每一行。同列，result[i] == column
-             * 同对角线，row - i == Math.abs(result[i] - column)
+             * 逐行往下考察每一行。同列，result[i] == column 同对角线，row - i == Math.abs(result[i] - column)
              */
             for (int i = row - 1; i >= 0; --i) {
                 if (result[i] == column || row - i == Math.abs(result[i] - column)) {
@@ -38,8 +37,8 @@ public class NQueen {
                     break;
                 }
             }
-            if (isValid) dfs(resultList, result, row + 1, n);
+            if (isValid)
+                dfs(resultList, result, row + 1, n);
         }
     }
 }
-
