@@ -1,8 +1,5 @@
 package interview;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * [程序员面试]：需要排序的最短子数组长度 
  * 从左到右遍历，找到需要排序的右边界，找到最小值，最小值左边即为没有再正确位置上需要排序的数组

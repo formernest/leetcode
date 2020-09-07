@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - maxWater",
+            "request": "launch",
+            "mainClass": "interview.maxWater",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution13",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution13",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution14",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution14",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution11",
+            "request": "launch",
+            "mainClass": "leetcode.tencent.Solution11",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - sumZeroProblem",
             "request": "launch",
             "mainClass": "interview.sumZeroProblem",

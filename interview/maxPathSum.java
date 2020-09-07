@@ -5,7 +5,7 @@ import leetcode.TreeNode;
 public class maxPathSum {
     int max = Integer.MIN_VALUE;
 
-    public int maxPathSum(TreeNode root) {
+    public int maxSum(TreeNode root) {
         rootSum(root);
         return max;
     }
