@@ -1,3 +1,5 @@
+package leetcode;
+
 class num713 {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         if(k <= 1) return 0;

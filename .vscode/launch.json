@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - num57",
+            "request": "launch",
+            "mainClass": "leetcode.num57",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sqrt",
+            "request": "launch",
+            "mainClass": "interview.sqrt",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - goodStart",
+            "request": "launch",
+            "mainClass": "interview.goodStart",
+            "projectName": "leetcode_d3519311"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - maxWater",
             "request": "launch",
             "mainClass": "interview.maxWater",

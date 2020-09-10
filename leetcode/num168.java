@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Solution {
+class num168 {
     public List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> res = new ArrayList<Integer>();
         Arrays.sort(nums);

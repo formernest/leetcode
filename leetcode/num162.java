@@ -1,6 +1,6 @@
 package leetcode;
 
-class Solution {
+class num162 {
     public int findPeakElement(int[] nums) {
         int start = 0;
         int end = nums.length - 1;

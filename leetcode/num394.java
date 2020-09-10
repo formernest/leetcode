@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.Stack;
 
 class num394 {
@@ -6,26 +8,27 @@ class num394 {
         Stack<StringBuilder> sbStack = new Stack<>();
         int k = 0;
         StringBuilder sb = new StringBuilder();
-        for(char c: s.toCharArray()){
-            if(Character.isDigit(c)){
+        for (char c : s.toCharArray()) {
+            if (Character.isDigit(c)) {
                 k = k * 10 + (c - '0');
-            }else if(c == '['){
+            } else if (c == '[') {
                 intStack.push(k);
                 sbStack.push(sb);
                 k = 0;
                 sb = new StringBuilder();
-            }else if(c == ']'){
+            } else if (c == ']') {
                 StringBuilder temp = sb;
                 sb = sbStack.pop();
-                for(int i=intStack.pop(); i>0; i--){
+                for (int i = intStack.pop(); i > 0; i--) {
                     sb.append(temp);
-                }            
-            }else{
+                }
+            } else {
                 sb.append(c);
             }
         }
         return sb.toString();
     }
+
     public static void main(String[] args) {
         String s = "3[a]2[bc]";
         num394 solution = new num394();

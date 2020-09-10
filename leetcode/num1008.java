@@ -1,16 +1,17 @@
+package leetcode;
 
 public class num1008 {
-    public TreeNode bstFromPreorder(int[] preorder) {
-        if(preorder.length != 0){
+    public TreeNode bstFromPreorder(int[] preorder, int from, int to) {
+        if (preorder.length != 0) {
             TreeNode root = new TreeNode(preorder[0]);
             int index = 1;
-            while(preorder[index] < preorder[0]){
-                index ++;
+            while (preorder[index] < preorder[0]) {
+                index++;
             }
-            root.left = bstFromPreorder(preorder[1, index]);
-            root.right = bstFromPreorder(preorder[index:]);
+            root.left = bstFromPreorder(preorder, 1, index);
+            root.right = bstFromPreorder(preorder, index, preorder.length);
             return root;
-        }else{
+        } else {
             return null;
         }
     }

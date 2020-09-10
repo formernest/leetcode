@@ -1,6 +1,6 @@
 package leetcode;
 
-class Solution {
+class num148 {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null)
             return head;

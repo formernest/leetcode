@@ -1,3 +1,4 @@
+package leetcode;
 import java.util.ArrayList;
 
 class num679 {
